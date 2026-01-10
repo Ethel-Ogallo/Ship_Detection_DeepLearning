@@ -14,7 +14,7 @@ The specific objectives are:
 
 #### Datasets
 
-For the experiment, data were accessed from kaggle [SARscope](https://www.kaggle.com/datasets/kailaspsudheer/sarscope-unveiling-the-maritime-landscape). It contains a total of 6,735 SAR images, supporting both detection and segmentation tasks.
+For the experiment, data were accessed from kaggle [SARscope](https://www.kaggle.com/datasets/kailaspsudheer/sarscope-unveiling-the-maritime-landscape). It contains a total of 6,735 SAR images, supporting both detection and segmentation tasks. 
 
 The Key features of datasets are as follow:
 
@@ -28,8 +28,24 @@ The Key features of datasets are as follow:
 
 - Balanced split: 70% training, 20% validation, 10% testing
 
-= Standard format: Annotations provided in COCO (MMDetection-compatible) format
+- Standard format: Annotations provided in COCO (MMDetection-compatible) format
+  
+- Dataset size: 398.17 MB
 
 #### Models
+This project evaluates multiple deep learning models, focusing on both accuracy and computational efficiency.
+
+**1. YOLO (You Only Look Once)**
+
+A one-stage object detection....
+
+**Faster R-CNN**
+
+A two-stage object detection framework........
+
+**DETR (DEtection TRansformer)**
+
+A transformer-based object detection model......
+
 
 #### Results and Discussions
